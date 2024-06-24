@@ -1,0 +1,232 @@
+body {
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  display:flex;
+  box-sizing:border-box;
+  position:fixed;
+  width: 100%;
+  background: #f5f6f9;
+  background-image:url("Picure/photo-1698758966450-faa4aa976d7a.avif");
+  font-family: 'Times New Roman', Times, serif;
+  background-size:cover; 
+  background-repeat: no-repeat;
+  background-attachment:unset;
+  }
+  .or{
+    text-align: center;
+      font-size: 20px;
+      padding-top: 0;
+      color: rgb(8, 8, 8);
+      font-family: 'Times New Roman', Times, serif;
+  }
+  #particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  
+  
+  
+  main {
+    display: grid;
+    grid-template-columns: 45% 55% ;
+    place-items: center;
+    background: #f6f6f6;
+    width: min(700px, 95%);
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 0 auto;
+    opacity: 0.7;
+  }
+  
+  /* Left Side */
+  
+  .left-side {
+    height: 100%;
+    width: 100%;
+    background-image: url("Picure/photo-1698758966450-faa4aa976d7a.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    pointer-events: none;
+    border-radius: 20px 0 0 20px;
+  }
+
+  .left-sides{
+    height: 100%;
+    width: 100%;
+    /*background-image: url("Picure/photo-1698758966450-faa4aa976d7a.avif");
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    background-position: center;
+    pointer-events: none;
+    border-radius: 20px 0 0 20px;
+
+  }
+
+  .left-name{
+      text-align: center;
+      padding-top: 50%;
+      color: rgb(246, 242, 242);
+      font-size: 30px;
+      font-family: sans-serif;
+  }
+  
+  /* Right Side */
+  
+  .right-side {
+    padding: 10px;
+  }
+  label{
+    font-size: 15px;
+  }
+  
+    .login-btn {
+      width: 100%;
+      font-size: 0.9rem;
+      font-weight: 600;
+      padding: 8px 24px;
+      margin: 12px 0 24px;
+      border: 2px solid #6b7280;
+      border-radius: 5px;
+      background-color: #f6f6f6;
+      cursor: pointer;
+      transition: all 0.5s;
+      
+    }
+   
+    
+    .login-btn:hover {
+      background-color: #000;
+      color: #eee;
+    }
+
+    .input{
+      width: 90%;
+      height: 10%;
+      font-size: 0.6rem;
+      border: 2px solid #6b7280;
+      border-radius: 5px;
+      background-color: #f6f6f6;
+    }
+
+    .tarea{
+      width: 80%;
+      height: 20%;
+    }
+    .left-side-btn{
+      float: right;
+    }
+    
+    .right-side-btn{
+      float: left;
+    }
+  
+  
+    .fade-in-image {
+      animation: fadeIn 5s;
+      -webkit-animation: fadeIn 5s;
+      -moz-animation: fadeIn 5s;
+      -o-animation: fadeIn 5s;
+      -ms-animation: fadeIn 5s;
+    }
+    
+    @keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+    
+    @-moz-keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+    
+    @-webkit-keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+    
+    @-o-keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+    
+    @-ms-keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+    
+   
+   .paysu{
+     margin-top: 5%;
+     text-align: center;
+    
+   }
+   .left-side-btn{
+    display: flex;
+    justify-content: center;
+    margin: 0 10px;
+     
+    }
+    .logins{
+        width: 50%;
+        font-size: 10rem;
+        padding: 8px 12px;
+        margin: 8px 0;
+        border: 2px ;
+        border-radius: 10px;
+        background-color: #f6f6f6;
+      
+    }
+    .login_de{
+      margin-top:20px;
+      padding: 10px;
+    }
+
+    .selected{
+      text-align: center;
+      font-size: 20px;
+      color: rgb(8, 8, 8);
+      font-family: 'Times New Roman', Times, serif;
+      padding-left: 0.20%;
+    }
+
+    .left-names{
+      text-align: center;
+      padding-top: 20%;
+      color: rgb(246, 242, 242);
+      font-size: 30px;
+      font-family: sans-serif;
+
+    }
+
+    .login-btns{
+      width: 60%;
+      font-size: 0.9rem;
+      font-weight: 600;
+      padding: 8px 24px;
+      margin: 12px 0 24px;
+      border: 2px solid #6b7280;
+      border-radius: 5px;
+      background-color: #f6f6f6;
+      cursor: pointer;
+      transition: all 0.5s;
+      
+    }
+   
+    
+    .login-btns:hover {
+      background-color: #000;
+      color: #eee;
+    }
+
+  
+
+    
+    
+
+   
